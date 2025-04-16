@@ -1,6 +1,8 @@
 from pathlib import Path
 import re
 
+""" It works with files containing format s02e03 case insensitive"""
+
 VIDEO_EXTENSIONS = {
     '.mp4', '.mkv', '.avi', '.mov', '.flv', '.wmv',
     '.webm', '.mpeg', '.mpg', '.m4v', '.3gp', '.3g2',
